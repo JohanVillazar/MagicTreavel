@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { DECIMAL, FLOAT } from "sequelize";
+
 const HotelSchema = new mongoose.Schema({
   name: {
     type: String,
